@@ -1311,7 +1311,7 @@ h3 {
 
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 22px;
+    font-size: 22px !important;
     letter-spacing: 3px;
   }
 }
