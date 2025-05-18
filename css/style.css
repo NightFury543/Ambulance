@@ -1420,7 +1420,7 @@ h3 {
 /* line 24, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
 .welcome_docmed_area .welcome_thumb .thumb_2 {
   position: absolute;
-  bottom: -250px;
+/*   bottom: -250px; */
   right: -37px;
 
 }
