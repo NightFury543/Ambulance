@@ -58,7 +58,33 @@
     z-index: 2; /* Ensures text appears above the overlay */
     color: white;
 }
+       .doc {
+            font-size: 18px;
+            font-weight: 400;
+            color: #1F1F1F;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 9;
+            padding-bottom: 9px;
+        }
 
+        .doc:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 50px;
+            background: #5DB2FF;
+        }
+
+        .m-auto-l {
+            margin: auto;
+        }
+
+        .img img {
+            border-radius: 10px;
+        }
 
     </style>
 </head>
@@ -183,59 +209,53 @@
         </div>
     </div>
     <!-- slider_area_end -->
- <!-- welcome_docmed_area_start -->
-    <div class="welcome_docmed_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_thumb">
-                        <div class="thumb_1">
-                            <img src="img/AMBU.jpg" alt="">
-                        </div>
-                        <div class="thumb_2">
-                            <img src="img/AMBU.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_docmed_info">
-                        <h2>Welcome to Docmed</h2>
-                        <p>Secunderabad Ambulance Services provides reliable and professional ambulance support across
-                            Hyderabad and Secunderabad.
-                            We specialize in transferring critically ill patients using Advanced Life Support (ALS)
-                            ambulances equipped with
-                            ventilators, oxygen, and other essential emergency equipment.
-                        </p>
-                    </div>
-                </div>
-                </div>
-                </div>
-        </div>
-        <div class="container">
-                <div class="row" style="padding-left:20px;padding-right:20px;">
-                    <p>We regularly assist patients from top hospitals such as Osmania General Hospital, Gandhi
-                        Hospital,
-                        NIMS, Apollo, Medwin,
-                        AIG, Continental, and more. Our team is well-versed in transporting patients from hospitals to
-                        their
-                        homes or to another
-                        healthcare facility, especially those requiring intensive care, cardiac support, or continuous
-                        monitoring. We deliver
-                        professional support every step of the way
-                    </p>
-                    <p>With highly experienced drivers familiar with roads in Telangana and other states across India,
-                        we
-                        ensure safe and
-                        timely transport under any conditions.
-                    </p>
-                    <p>Available 24/7, Secunderabad Ambulance Services is committed to delivering reliable,
-                        compassionate
-                        care when it matters
-                        most.</p>
-                     <a href="#" class="boxed-btn3-white-2">Learn More</a>
+  <!-- welcome_docmed_area_start -->
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="img">
+                    <img src="img/AMBU.jpg" alt="" width="100%">
                 </div>
             </div>
+            <div class="col-lg-6">
+                <div class="welcome_docmed_info">
+                    <h2 class="doc pt-2">Welcome to Docmed</h2>
+                    <p>Secunderabad Ambulance Services provides reliable and professional ambulance support across
+                        Hyderabad and Secunderabad.
+                        We specialize in transferring critically ill patients using Advanced Life Support (ALS)
+                        ambulances equipped with
+                        ventilators, oxygen, and other essential emergency equipment.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row m-auto-l pt-3">
+            <div class="col-lg-12">
+
+                <p>We regularly assist patients from top hospitals such as Osmania General Hospital, Gandhi Hospital,
+                    NIMS,
+                    Apollo, Medwin,
+                    AIG, Continental, and more. Our team is well-versed in transporting patients from hospitals to their
+                    homes or to another
+                    healthcare facility, especially those requiring intensive care, cardiac support, or continuous
+                    monitoring. We deliver
+                    professional support every step of the way
+                </p>
+                <p>With highly experienced drivers familiar with roads in Telangana and other states across India, we
+                    ensure
+                    safe and
+                    timely transport under any conditions.
+                </p>
+                <p>Available 24/7, Secunderabad Ambulance Services is committed to delivering reliable, compassionate
+                    care
+                    when it matters
+                    most.
+                </p>
+            </div>
+        </div>
+    </div>
     <!-- welcome_docmed_area_end -->
+
     <!-- service_area_start -->
     <div class="service_area">
         <div class="container p-0">
