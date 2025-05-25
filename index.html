@@ -94,10 +94,42 @@
         .emergency_bg_1 {
             background-image:url(./img/ambu_4.jpg)
         }
+
+        /* call */
+          .call-now-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  .call-now-btn {
+    background-color: #e60000;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+
+  .call-now-btn:hover {
+    background-color: #cc0000;
+  }
     </style>
 </head>
 
 <body>
+    <!-- Sticky Call Now Button -->
+<div class="call-now-container">
+  <a href="tel:+919999999999" class="call-now-btn" target="_blank">
+    🔎 Call Now
+  </a>
+</div>
+
+
 <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
         <script>
           var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"911234567890","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
